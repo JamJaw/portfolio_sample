@@ -1,0 +1,115 @@
+@media screen and (min-width:480px) and (max-width:886px) {
+    /*
+     * [header]のスタイルシート
+     */
+    .back{
+        height:350px;
+    }
+    .nav1{
+        width:40px;
+        height:40px;
+    }
+    .nav1 img{
+        padding-left:10px;
+        padding-top:5px;
+        width:17px;
+    }
+    .nav1 p{
+        padding-left:3px;
+        font-size:11px;
+        margin-top:-3px;
+    }
+    .nav2{
+        width:40px;
+        height:40px;
+    }
+    .nav2 img{
+        padding-left:10px;
+        padding-top:5px;
+        width:20px;
+    }
+    .nav2 p{
+        padding-left:2px;
+        font-size:10px;
+        margin-top:-5px;
+    }
+    .profile{
+        width:300px;
+        position:absolute;top:50px;right:50px;
+    }
+    .name1{
+        margin-top:-300px;
+        margin-left:50px;
+        font-size:55px;
+        letter-spacing: 3px;
+    }
+    .name2{
+        margin-top:-80px;
+        margin-left:50px;
+        font-size:55px;
+        letter-spacing: 6px;
+    }
+    .name3{
+        margin-left:50px;
+        margin-top:-60px;
+        font-size:18px;
+        letter-spacing: 2px;
+    }
+    .job{
+        margin-left:50px;
+        margin-top:-13px;
+        font-size:14px;
+        letter-spacing: 2px;
+    }
+   /*
+    * [about]のスタイルシート
+    */
+    .about{
+        margin-top:105px;
+        height:300px;
+        border:solid 1px;
+        position:relative;
+    }
+    .about-title{
+        font-size:22px;
+        margin-left:40px;
+        padding-top:20px;
+    }
+    .skill1{
+        margin-left:40px;
+        font-size:10px;
+    }
+    .skill2{
+    margin-top:-5px;
+    margin-left:40px;
+    font-size:10px;
+    }
+    .intro{
+    font-size:10px;
+    margin-left:40px;
+    }
+    .mail{
+    padding-top:5px;
+    font-size:10px;
+    margin-left:40px;
+    }
+    .sns{
+    margin-left:40px;
+    }
+    .github{
+    width:20px;
+    }
+    .in{
+    margin-left:10px;
+    width:20px;
+    }
+    .pc-area{
+    width:300px;
+    position:absolute;top:0px;right:0px;
+    overflow: hidden;
+    }
+    .pc{
+    width:400px;
+    }
+
+}

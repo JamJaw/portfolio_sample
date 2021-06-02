@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*
+ * [header]のスタイルシート
+ */
+header{
+    position:relative;
+}
+.back{
+    width:100%;
+    height:620px;
+}
+.nav1{
+    position:absolute;top:0px;left:0px;
+    text-decoration: none;
+    background-color:white;
+    width:70px;
+    height:70px;
+}
+.nav1 img{
+    padding-left:18px;
+    padding-top:10px;
+    width:30px;
+}
+.nav1 p{
+    padding-left:10px;
+    font-size:16px;
+    margin-top:0px;
+    color:black;
+}
+.nav2{
+    position:absolute;top:0px;right:0px;
+    text-decoration: none;
+    background-color:white;
+    width:70px;
+    height:70px;
+}
+.nav2 img{
+    padding-left:20px;
+    padding-top:10px;
+    width:30px;
+}
+.nav2 p{
+    padding-left:10px;
+    font-size:15px;
+    margin-top:0px;
+    color:black;
+}
+.profile{
+    width:590px;
+    position:absolute;top:30px;right:100px;
+}
+.name1{
+    margin-top:-550px;
+    margin-left:120px;
+    color:white;
+    font-size:120px;
+    letter-spacing: 10px;
+}
+.name2{
+    margin-top:-200px;
+    margin-left:120px;
+    color:white;
+    font-size:120px;
+    letter-spacing: 14px;
+}
+.name3{
+    color:white;
+    margin-left:120px;
+    margin-top:-150px;
+    font-size:28px;
+    letter-spacing: 5px;
+}
+.job{
+    color:white;
+    margin-left:120px;
+    margin-top:-15px;
+    font-size:20px;
+    letter-spacing: 10px;
+}
+/*
+ * [about]のスタイルシート
+ */
+ .about{
+     margin-top:208px;
+     height:500px;
+     width:100%;
+     border-bottom:solid 1px;
+     position:relative;
+ }
+ .about-title{
+     font-size:30px;
+     margin-left:120px;
+     padding-top:70px;
+     letter-spacing: 1px;
+ }
+ .skill1{
+     margin-left:120px;
+     letter-spacing: 2px;
+     font-size:18px;
+ }
+ .skill2{
+    margin-top:-15px;
+    margin-left:120px;
+    letter-spacing: 2px;
+    font-size:18px;
+}
+.intro{
+    font-size:18px;
+    margin-left:120px;
+    letter-spacing: 1px;
+}
+.mail{
+    padding-top:10px;
+    font-size:16px;
+    margin-left:120px;
+}
+.sns{
+    margin-left:120px;
+}
+.github{
+    width:30px;
+}
+.in{
+    margin-left:20px;
+    width:30px;
+}
+.pc-area{
+    width:650px;
+    position:absolute;top:-15px;right:0px;
+    overflow: hidden;
+}
+.pc{
+    width:800px;
+}

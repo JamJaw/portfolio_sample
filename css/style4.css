@@ -1,0 +1,118 @@
+@media screen and (max-width:480px) {
+    /*
+     * [header]のスタイルシート
+     */
+     .back{
+        height:270px;
+    }
+    .nav1{
+        width:35px;
+        height:35px;
+    }
+    .nav1 img{
+        padding-left:10px;
+        padding-top:3px;
+        width:13px;
+    }
+    .nav1 p{
+        padding-left:1px;
+        font-size:2px;
+        margin-top:-5px;
+    }
+    .nav2{
+        width:35px;
+        height:35px;
+    }
+    .nav2 img{
+        padding-left:10px;
+        padding-top:5px;
+        width:14px;
+    }
+    .nav2 p{
+        padding-left:0px;
+        font-size:1px;
+        margin-top:-6px;
+    }
+    .profile{
+        width:210px;
+        position:absolute;top:60px;right:5px;
+    }
+    .name1{
+        margin-top:-230px;
+        margin-left:20px;
+        font-size:40px;
+        letter-spacing: 2px;
+    }
+    .name2{
+        margin-top:-60px;
+        margin-left:20px;
+        font-size:40px;
+        letter-spacing: 4px;
+    }
+    .name3{
+        margin-left:20px;
+        margin-top:-50px;
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+    .job{
+        margin-left:20px;
+        margin-top:-12px;
+        font-size:10px;
+        letter-spacing: 1px;
+    }
+   /*
+    * [about]のスタイルシート
+    */
+    .about{
+        margin-top:90px;
+        height:280px;
+        border:solid 1px;
+        position:relative;
+    }
+    .about-title{
+        font-size:18px;
+        margin-left:30px;
+        padding-top:10px;
+    }
+    .skill1{
+        margin-left:30px;
+        font-size:7px;
+        width:200px;
+    }
+    .skill2{
+    margin-top:-5px;
+    margin-left:30px;
+    font-size:7px;
+    width:200px;
+    }
+    .intro{
+    font-size:7px;
+    margin-left:30px;
+    width:200px;
+    }
+    .mail{
+    padding-top:3px;
+    font-size:7px;
+    margin-left:30px;
+    }
+    .sns{
+    margin-left:30px;
+    }
+    .github{
+    width:17px;
+    }
+    .in{
+    margin-left:10px;
+    width:17px;
+    }
+    .pc-area{
+    width:150px;
+    position:absolute;top:50px;right:0px;
+    overflow: hidden;
+    }
+    .pc{
+    width:250px;
+    }
+
+}

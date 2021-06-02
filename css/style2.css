@@ -1,0 +1,89 @@
+@media screen and (min-width:886px) and ( max-width:1135px){
+    /*
+     * [header]のスタイルシート
+     */
+    .back{
+        height:500px;
+    }
+    .profile{
+        width:450px;
+        position:absolute;top:50px;right:80px;
+    }
+    .name1{
+        margin-top:-430px;
+        margin-left:100px;
+        font-size:100px;
+        letter-spacing: 7px;
+    }
+    .name2{
+        margin-top:-150px;
+        margin-left:100px;
+        font-size:100px;
+        letter-spacing: 10px;
+    }
+    .name3{
+        margin-left:100px;
+        margin-top:-120px;
+        font-size:24px;
+        letter-spacing: 3px;
+    }
+    .job{
+        margin-left:100px;
+        margin-top:-15px;
+        font-size:18px;
+        letter-spacing: 7px;
+    }
+   /*
+    * [about]のスタイルシート
+    */
+    .about{
+        margin-top:120px;
+        height:400px;
+        border:solid 1px;
+        position:relative;
+    }
+    .about-title{
+        font-size:26px;
+        margin-left:80px;
+        padding-top:40px;
+    }
+    .skill1{
+        margin-left:80px;
+        letter-spacing: 1px;
+        font-size:14px;
+    }
+    .skill2{
+    margin-top:-10px;
+    margin-left:80px;
+    letter-spacing: 1px;
+    font-size:14px;
+    }
+    .intro{
+    font-size:13px;
+    margin-left:80px;
+    }
+    .mail{
+    padding-top:7px;
+    font-size:14px;
+    margin-left:80px;
+    }
+    .sns{
+    margin-left:80px;
+    }
+    .github{
+    width:25px;
+    }
+    .in{
+    margin-left:15px;
+    width:25px;
+    }
+    .pc-area{
+    width:500px;
+    position:absolute;top:0px;right:0px;
+    overflow: hidden;
+    }
+    .pc{
+    width:600px;
+    }
+    
+}
