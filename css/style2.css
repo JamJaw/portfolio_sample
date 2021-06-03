@@ -85,5 +85,147 @@
     .pc{
     width:600px;
     }
+   /*
+    * [projects-twitter]のスタイルシート
+    */
+    .projects{
+        position:relative;
+    }
+    .twitter-back{
+        width:100%;
+        height:400px;
+    }
+    .projects-title{
+        margin-top:-375px;
+        font-size:26px;
+        margin-left:80px;
+    }
+    .twitter-img{
+        width:320px;
+        margin-left:80px;
+        height:303px;
+        margin-top:0px;
+    }
+    .twitter-detail{
+        position:absolute;right:50px;top:70px;
+    }
+    .twitter-title{
+        font-size:22px;
+    }
+    .twitter-detail2{
+        display:flex;
+        font-size:14px;
+        margin-top:-20px;
+    }
+    .twitter-detail3{
+        font-size:14px;
+        margin-top:-10px;
+    }
+    .acount{
+        font-size:18px;
+        margin-top:30px;
+    }
+    .twitter-mail{
+        font-size:14px;
+        margin-top:-10px;
+    }
+    .twitter-pass{
+        font-size:14px;
+        margin-top:-10px;
+    }
+    .twitter-link{
+        display:flex;
+    }
+    .twitter-web-link{
+        text-decoration: none;
+    }
+    .twitter-web{
+        background-color:white;
+        color:#777976;
+        width:70px;
+        height:25px;
+        padding-top:3px;
+        padding-left:8px;
+    }
+    .twitter-github{
+        border:solid 1px white;
+        color:white;
+        margin-left:20px;
+        width:67px;
+        height:25px;
+        padding-top:3px;
+        padding-left:8px;
+    }
+   /*
+    * [projects-netflix]のスタイルシート
+    */
+    .netflix{
+        height:380px;
+        border-bottom:solid 1px;
+    }
+    .netflix-clone{
+        display:none;
+    }
+    .netflix-box{
+        display:flex;
+    }
+    .netflix-img{
+        width:320px;
+        height:300px;
+        margin-left:80px;
+    }
+    .netflix-content{
+        position:absolute;top:360px;right:100px;
+    }
+    .netflix-title{
+        font-size:22px;
+        font-weight: normal;
+    }
+    .netflix-detail1{
+        font-size:14px;
+        letter-spacing: 2px;
+        margin-top:-15px;
+    }
+    .netflix-detail2{
+        font-size:14px;
+        letter-spacing: 2px;
+        margin-top:-10px;
+    }
+    .netflix-acount{
+        font-size:18px;
+        margin-top:15px;
+    }
+    .netflix-mail{
+        font-size:14px;
+        margin-top:-15px;
+    }
+    .netflix-pass{
+        font-size:14px;
+        margin-top:-15px;
+    }
+    .netflix-link{
+        text-decoration: none;
+        display:flex;
+    }
+    .netflix-web-link{
+        text-decoration: none;
+    }
+    .netflix-web{
+        border:solid 1px #707070;
+        color:black;
+        width:70px;
+        height:25px;
+        padding-top:3px;
+        padding-left:8px;
+    }
+    .netflix-github{
+        background-color:#303030;
+        margin-left:20px;
+        color: white;
+        width:67px;
+        height:25px;
+        padding-top:3px;
+        padding-left:10px;
+    }
     
 }

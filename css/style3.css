@@ -68,6 +68,7 @@
         margin-top:105px;
         height:300px;
         border:solid 1px;
+        text-align: center;
         position:relative;
     }
     .about-title{
@@ -104,12 +105,175 @@
     width:20px;
     }
     .pc-area{
-    width:300px;
-    position:absolute;top:0px;right:0px;
-    overflow: hidden;
+        display:none;
     }
-    .pc{
-    width:400px;
+   /*
+    * [projects-twitter]のスタイルシート
+    */
+    .projects{
+        text-align: center;
+    }
+    .twitter-back{
+        width:100%;
+        height:750px;
+    }
+    .projects-title{
+        margin-top:-730px;
+        font-size:30px;
+        margin-left:0px;
+    }
+    .twitter-title-mini{
+        display:block;
+        color:white;
+        font-size:24px;
+        letter-spacing: 2px;
+    }
+    .twitter-img{
+        width:300px;
+        margin-left:0px;
+        margin-top:-5px;
+    }
+    .twitter-content{
+        display:block;
+    }
+    .twitter-detail{
+        color:white;
+        margin-left:0px;
+    }
+    .twitter-title{
+        display:none;
+    }
+    .twitter-detail2{
+        display:block;
+        font-size:14px;
+        margin-top:30px;
+        letter-spacing: 2px;
+    }
+    .twitter-detail4{
+        margin-top:-10px;
+        letter-spacing: 2px;
+    }
+    .twitter-detail3{
+        font-size:14px;
+        margin-top:-10px;
+        letter-spacing: 2px;
+    }
+    .acount{
+        font-size:18px;
+        margin-top:30px;
+    }
+    .twitter-mail{
+        font-size:14px;
+        margin-top:-10px;
+        letter-spacing: 2px;
+    }
+    .twitter-pass{
+        font-size:14px;
+        margin-top:-10px;
+        letter-spacing: 2px;
+    }
+    .twitter-link{
+        display:flex;
+        margin:auto;
+        width:180px;
+    }
+    .twitter-web-link{
+        text-decoration: none;
+    }
+    .twitter-web{
+        background-color:white;
+        color:#777976;
+        width:70px;
+        height:25px;
+        padding-top:3px;
+        padding-left:8px;
+    }
+    .twitter-github{
+        border:solid 1px white;
+        color:white;
+        margin-left:20px;
+        width:70px;
+        height:25px;
+        padding-top:3px;
+        padding-left:5px;
+    }
+   /*
+    * [projects-netflix]のスタイルシート
+    */
+    .netflix{
+        height:640px;
+        border-bottom:solid 1px;
+        text-align: center;
+    }
+    .netflix-clone{
+        display:block;
+        font-size:24px;
+        letter-spacing: 2px;
+        margin-top:60px;
+    }
+    .netflix-box{
+        display:block;
+    }
+    .netflix-img{
+        width:300px;
+        height:300px;
+        margin-left:0px;
+    }
+    .netflix-content{
+        margin-left:0px;
+    }
+    .netflix-title{
+        display:none;
+    }
+    .netflix-detail1{
+        font-size:14px;
+        letter-spacing: 2px;
+        margin-top:-40px;
+    }
+    .netflix-detail2{
+        font-size:14px;
+        letter-spacing: 2px;
+        margin-top:-15px;
+    }
+    .netflix-acount{
+        font-size:18px;
+        margin-top:30px;
+    }
+    .netflix-mail{
+        font-size:14px;
+        margin-top:-15px;
+        letter-spacing: 1px;
+    }
+    .netflix-pass{
+        font-size:14px;
+        margin-top:-15px;
+        letter-spacing: 1px;
+    }
+    .netflix-link{
+        text-decoration: none;
+        display:flex;
+        margin:auto;
+        width:160px;
+    }
+    .netflix-web-link{
+        text-decoration: none;
+    }
+    .netflix-web{
+        border:solid 1px #707070;
+        color:black;
+        width:72px;
+        height:25px;
+        padding-top:3px;
+        padding-left:3px;
+    }
+    .netflix-github{
+        background-color:#303030;
+        margin-left:20px;
+        color: white;
+        width:73px;
+        height:25px;
+        padding-top:3px;
+        padding-left:4px;
     }
 
 }

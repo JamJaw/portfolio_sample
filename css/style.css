@@ -135,3 +135,204 @@ header{
 .pc{
     width:800px;
 }
+/*
+ * [projects-twitter]のスタイルシート
+ */
+ .twitter-back{
+     width:100%;
+     height:600px;
+ }
+ .projects-title{
+     margin-top:-540px;
+     font-size:32px;
+     color:white;
+     margin-left:100px;
+     letter-spacing: 3px;
+ }
+ .twitter-title-mini{
+     display:none;
+ }
+ .twitter-content{
+     display:flex;
+ }
+ .twitter-img{
+     width:497px;
+     margin-left:100px;
+     margin-top:-5px;
+ }
+ .twitter-detail{
+     color:white;
+     margin-left:100px;
+ }
+ .twitter-title{
+     font-size:26px;
+     letter-spacing: 3px;
+ }
+ .twitter-detail2{
+     display:flex;
+     font-size:16px;
+     margin-top:-20px;
+ }
+ .twitter-detail3{
+     font-size:16px;
+     margin-top:-10px;
+ }
+ .acount{
+     font-size:20px;
+     margin-top:30px;
+ }
+ .twitter-mail{
+     font-size:16px;
+ }
+ .twitter-pass{
+     font-size:16px;
+ }
+ .twitter-link{
+     display:flex;
+ }
+ .twitter-web-link{
+     text-decoration: none;
+ }
+ .twitter-web{
+     background-color:white;
+     color:#777976;
+     width:70px;
+     height:25px;
+     padding-top:3px;
+     padding-left:8px;
+ }
+ .twitter-github{
+     border:solid 1px white;
+     color:white;
+     margin-left:20px;
+     width:67px;
+     height:25px;
+     padding-top:3px;
+     padding-left:8px;
+ }
+ /*
+  * [projects-netflix]のスタイルシート
+  */
+.netflix{
+    height:600px;
+}
+.netflix-clone{
+    display:none;
+}
+.netflix-box{
+    display:flex;
+}
+.netflix-img{
+    width:500px;
+    height:500px;
+    margin-left:100px;
+}
+.netflix-content{
+    margin-left:100px;
+    margin-top:50px;
+}
+.netflix-title{
+    font-size:32px;
+    font-weight: normal;
+}
+.netflix-detail1{
+    font-size:16px;
+    letter-spacing: 2px;
+}
+.netflix-detail2{
+    font-size:16px;
+    letter-spacing: 2px;
+    margin-top:-10px;
+}
+.netflix-acount{
+    font-size:20px;
+    margin-top:30px;
+}
+.netflix-mail{
+    font-size:16px;
+    margin-top:-10px;
+}
+.netflix-pass{
+    font-size:16px;
+    margin-top:-10px;
+}
+.netflix-link{
+    text-decoration: none;
+    display:flex;
+}
+.netflix-web-link{
+    text-decoration: none;
+}
+.netflix-web{
+    border:solid 1px #707070;
+    color:black;
+    width:70px;
+    height:25px;
+    padding-top:3px;
+    padding-left:8px;
+}
+.netflix-github{
+    background-color:#303030;
+    margin-left:20px;
+    color: white;
+    width:67px;
+    height:25px;
+    padding-top:3px;
+    padding-left:10px;
+}
+/*
+ * [contacts]のスタイルシート
+ */
+ .contacts{
+     background-color:#2F2F2F;
+     height:280px;
+     margin-top:-20px;
+ }
+ .contacts-title{
+     color:white;
+     font-size:26px;
+     padding-top:90px;
+     margin-left:100px;
+     letter-spacing: 2px;
+ }
+ .contacts-tell{
+     margin-left:100px;
+     display:flex;
+ }
+ .contacts-tell-img{
+     width:25px;
+     height:30px;
+     margin-top:0px;
+ }
+ .contacts-tell p{
+     color:white;
+     margin-top:3px;
+     padding-left:15px;
+     letter-spacing: 1px;
+ }
+ .contacts-mail{
+     margin-left:100px;
+     display:flex;
+ }
+ .contacts-mail-img{
+     width:30px;
+     height:30px;
+     margin-top:10px;
+ }
+ .contacts-mail p{
+    color:white;
+    margin-top:14px;
+    padding-left:15px;
+    letter-spacing: 1px;
+}
+.rights{
+    background-color:#656363;
+    height:45px;
+    margin-top:-20px;
+    text-align: center;
+}
+.rights p{
+    padding-top:15px;
+    color:white;
+    font-size:12px;
+}
