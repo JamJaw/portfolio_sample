@@ -202,7 +202,6 @@
     */
     .netflix{
         height:640px;
-        border-bottom:solid 1px;
         text-align: center;
     }
     .netflix-clone{
@@ -274,6 +273,40 @@
         height:25px;
         padding-top:3px;
         padding-left:4px;
+    }
+   /*
+    * [contacts]のスタイルシート
+    */
+    .contacts{
+        height:180px;
+        margin-top:-26px;
+    }
+    .contacts-title{
+        font-size:20px;
+        padding-top:50px;
+    }
+    .contacts-tell-img{
+        width:18px;
+        height:23px;
+        margin-top:-5px;
+    }
+    .contacts-tell p{
+        margin-top:-5px;
+    }
+    .contacts-mail-img{
+        width:23px;
+        height:23px;
+        margin-top:3px;
+    }
+    .contacts-mail p{
+    margin-top:3px;
+    }
+    .rights{
+    height:30px;
+    }
+    .rights p{
+    padding-top:10px;
+    font-size:10px;
     }
 
 }
